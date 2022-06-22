@@ -1,13 +1,13 @@
-package de.shop.admin;
+package de.shop.site;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShopProjectBackEndApplication {
+public class ShopProjectFrontEndApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ShopProjectBackEndApplication.class, args);
+		SpringApplication.run(ShopProjectFrontEndApplication.class, args);
 	}
 
 }
